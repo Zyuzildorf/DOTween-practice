@@ -16,7 +16,7 @@ namespace Source.Scripts
 
         private void Start()
         {
-            _meshRenderer.material.DOColor(_color, _duration).SetLoops(_repeats, _loopType);
+            _meshRenderer.material.DOColor(_color, Duration).SetLoops(Repeats, LoopType);
         }
     }
 }

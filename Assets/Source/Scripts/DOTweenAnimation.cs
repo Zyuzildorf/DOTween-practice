@@ -5,8 +5,8 @@ namespace Source.Scripts
 {
     public class DOTweenAnimation : MonoBehaviour
     {
-        [SerializeField] protected LoopType _loopType;
-        [SerializeField] protected float _duration;
-        [SerializeField] protected int _repeats;
+        [SerializeField] protected LoopType LoopType;
+        [SerializeField] protected float Duration;
+        [SerializeField] protected int Repeats;
     }
 }
