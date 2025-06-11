@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Source.Scripts
 {
+    [RequireComponent(typeof(MeshRenderer))]
     public class ColorChanger : DOTweenAnimation
     {
         [SerializeField] private Color _color;
