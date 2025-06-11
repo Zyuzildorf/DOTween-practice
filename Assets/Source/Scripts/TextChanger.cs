@@ -1,9 +1,11 @@
 using DG.Tweening;
 using UnityEngine.UI;
+using UnityEngine;
 
 namespace Source.Scripts
 {
-    public class TextChanger : DOTweenAnimation
+    [RequireComponent(typeof(Text))]
+     public class TextChanger : DOTweenAnimation
     {
         private Text _text;
         private Sequence _sequence;
